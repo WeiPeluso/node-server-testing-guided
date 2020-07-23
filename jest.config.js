@@ -8,8 +8,11 @@ module.exports = {
   // Stop running tests after `n` failures
   // bail: 0,
 
+  // Respect "browser" field in package.json when resolving modules
+  // browser: false,
+
   // The directory where Jest should store its cached dependency information
-  // cacheDirectory: "/private/var/folders/l7/2h90nh0j6fv1_tz3548n_hr00000gn/T/jest_dx",
+  // cacheDirectory: "/private/var/folders/vx/_s1x7bg12jd1bm4wqnvlg60r0000gn/T/jest_dx",
 
   // Automatically clear mock calls and instances between every test
   clearMocks: true,
@@ -27,9 +30,6 @@ module.exports = {
   // coveragePathIgnorePatterns: [
   //   "/node_modules/"
   // ],
-
-  // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: "v8",
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
